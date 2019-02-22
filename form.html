@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Form</title>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home Page</a></nav>
+    <form method="POST" action="https://formspree.io/julja.2008@gmail.com">
+        <label>User Name:<input type="text" placeholder="User Name" name="user-name"></label>
+        <br>
+        <label for="email-input">User Email:</label>
+        <input type="email" name="user-email" placeholder="User Email" id="email-input"><br>
+        <label>Do you like dogs?</label><br>
+        <label><input type="radio" name="do-you-like-dogs" value:"yes"/>Yes</label>
+        <label><input type="radio" name="do-you-like-dogs" value:"no"/>No</label><br>
+        
+        <label>Gender:</label><br>
+        <label><input type="radio" name="gender" value:"male"/>Male</label>
+        <label><input type="radio" name="gender" value:"female"/>Female</label>
+        <label><input type="radio" name="gender" value:"other"/>Other</label><br>
+
+
+        <label for="color">What kind of labrador you like more?</label>
+        <select name="color">
+      <option>Black</option>
+      <option>Brown</option>
+      <option>White</option>
+    </select><br>
+        <input type="submit" value="SEND" />
+    </form>
+
+</body>
+
+</html>
